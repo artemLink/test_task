@@ -1,0 +1,13 @@
+{% extends './sample.html' %}
+{% block content%}
+
+
+<h1>Реєстрація</h1>
+<form method="post">
+    <div>
+    {% csrf_token %}
+    {{ user_form.as_p }}
+    <button type="submit" class="btn btn-primary">Реєстрація</button>
+    </div>
+</form>
+{% endblock %}
