@@ -2,19 +2,19 @@
 
 <h1>URLS</h1>
 
-  POST api/v1/token/ - Get JWT token
+  <b>POST</b> api/v1/token/ - Get JWT token
   
-  GET api/v1/taglist/ - Get a list of tags
+  <b>GET</b> api/v1/taglist/ - Get a list of tags
   
-  GET api/v1/event/<int:pk>/ - Get one event by id
+  <b>GET</b> api/v1/event/<int:pk>/ - Get one event by id
   
-  DELETE api/v1/delete-event/<int:pk>/ - Delete event
+  <b>DELETE</b> api/v1/delete-event/<int:pk>/ - Delete event
   
-  PATCH api/v1/update-event/<int:pk>/ - Update event
+  <b>PATCH</b> api/v1/update-event/<int:pk>/ - Update event
   
-  GET api/v1/allevent/ - View all events
+  <b>GET</b> api/v1/allevent/ - View all events
   
-  POST api/v1/create-event/ - Create event
+  <b>POST</b> api/v1/create-event/ - Create event
   
   
   Model Event:
