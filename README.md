@@ -1,6 +1,6 @@
 # test_task
 
-<h1>URLS<h1>
+<h1>URLS</h1>
 
   POST api/v1/token/ - Get JWT token
   
